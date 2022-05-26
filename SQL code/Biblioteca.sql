@@ -62,3 +62,5 @@ CREATE TABLE IF NOT EXISTS `Biblioteca`.`emprestimo` (
     REFERENCES `Biblioteca`.`exemplar` (`id_exemplar`)
     ON DELETE NO ACTION
     ON UPDATE NO ACTION);
+
+-- teste
